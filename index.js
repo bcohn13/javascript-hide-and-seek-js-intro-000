@@ -3,7 +3,7 @@ function getFirstSelector(selector) {
   return document.querySelector(selector)
 }
 
-function nestedTarget() {
+function nestedTarget(selector) {
 
-  return document.querySelectorAll("tr")
+  return document.querySelectorAll(selector)
 }

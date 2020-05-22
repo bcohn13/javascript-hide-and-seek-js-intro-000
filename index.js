@@ -5,5 +5,5 @@ function getFirstSelector(selector) {
 
 function nestedTarget() {
 
-  return document.querySelectorAll()
+  return document.querySelectorAll("tr")
 }
